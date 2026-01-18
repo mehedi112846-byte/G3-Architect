@@ -1,0 +1,99 @@
+/* universal part  */
+.font_sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 8px;
+}
+
+.display_head{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.display_flex{
+    display: flex;
+}
+
+.button{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+/* for navigation part  */
+#nav_section{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.g3_title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.menu{
+    gap: 30px;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+.list{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* for banner section  */
+.banner{
+    text-align: center;
+}
+
+.banner h3{
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.banner p{
+    margin: 10px 0px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.button_explore{
+    margin: 16px auto;
+    width: max-content;
+    font-size: 20px;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* for responsive banner  */
+/* for small screen  */
+@media screen and (max-width:576px){
+    .display_flex{
+    display: flex;
+    flex-direction: column;
+}
+}
+/* for medium screen  */
+@media screen and (min-width:576px) and (max-width:992px){
+   #nav_section{
+    flex-direction: column;
+    
+}
+}
